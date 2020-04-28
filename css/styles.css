@@ -874,8 +874,14 @@ p {
   font-family: "Open Sans", sans-serif; }
 
 img {
-  display: block;
-  margin: auto; }
+height: 400px;
+width: 400px;
+
+
+}
+img:hover{
+    transform: scale(1.2);
+}
 
 a {
   color: #bf6a91;
